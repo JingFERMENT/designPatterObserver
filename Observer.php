@@ -1,6 +1,8 @@
 <?php 
-/*  Observer : C'est l'interface / la classe qui doit être implémentée par 
- les objets qui veulent être notifiés des changements du sujet. */
+
+/* Design pattern Observer : Un patron pour notifier automatiquement plusieurs objets de l'état 
+ d'un autre objet. Relation un-à-plusieurs, utilisé pour la notification d'événements.
+ */
 
 // C'est l'interface que tous les observateurs doivent implémenter.
 interface Observer {
